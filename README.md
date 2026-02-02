@@ -31,8 +31,8 @@ The system is suitable for:
 
 - **Programming Language:** Python  
 - **Vector Database:** FAISS  
-- **Embeddings:** Sentence Transformers / OpenAI Embeddings  
-- **LLM:** OpenAI GPT or equivalent  
+- **Embeddings:** Sentence Transformers   
+- **LLM:** google/flan-t5-base 
 - **Framework / UI:** Streamlit / Python scripts  
 - **Version Control:** Git & GitHub  
 
@@ -74,6 +74,8 @@ git clone https://github.com/Raja-Rajeswari-Javvadi/Smart-Document-Question-Answ
 cd Smart-Document-Question-Answering-System-using-RAG
 ```
 <img width="817" height="705" alt="image" src="https://github.com/user-attachments/assets/3fcbcc83-4d16-4aea-be4d-030f4b82d1dc" />
+---
+
 ## 📜 License
 
 This project is open-source and available under the **MIT License**.
