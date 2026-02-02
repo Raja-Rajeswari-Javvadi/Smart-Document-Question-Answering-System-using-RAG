@@ -20,28 +20,75 @@ st.set_page_config(
 # -----------------------------
 st.markdown("""
 <style>
-.chat-user {
-    background-color: #1f2937;
-    padding: 12px;
+
+/* Main app background */
+.stApp {
+    background: linear-gradient(135deg, #0f172a 0%, #020617 60%);
+    color: #e5e7eb;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #020617, #020617);
+    border-right: 1px solid #1e293b;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #f8fafc;
+}
+
+/* Text inputs */
+input, textarea {
+    background-color: #020617 !important;
+    color: #e5e7eb !important;
+    border: 1px solid #334155 !important;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    color: white;
     border-radius: 10px;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+}
+.stButton > button:hover {
+    background: linear-gradient(90deg, #1d4ed8, #2563eb);
+}
+
+/* Chat bubbles */
+.chat-user {
+    background-color: #1e293b;
+    padding: 12px;
+    border-radius: 12px;
     margin-bottom: 6px;
 }
+
 .chat-bot {
-    background-color: #111827;
+    background-color: #020617;
     padding: 12px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 10px;
     border-left: 4px solid #3b82f6;
 }
+
+/* Source boxes */
 .source-box {
-    background-color: #0f172a;
+    background-color: #020617;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 14px;
     margin-bottom: 6px;
+    border: 1px solid #334155;
 }
+
 </style>
 """, unsafe_allow_html=True)
+
+
 
 # -----------------------------
 # Header
