@@ -72,5 +72,28 @@ The system is suitable for:
 ```bash
 git clone https://github.com/Raja-Rajeswari-Javvadi/Smart-Document-Question-Answering-System-using-RAG.git
 cd Smart-Document-Question-Answering-System-using-RAG
-<img width="668" height="637" alt="image" src="https://github.com/user-attachments/assets/9775abe4-edb5-4f6e-aea2-0bc627fdf40c" />
+```
+<img width="817" height="705" alt="image" src="https://github.com/user-attachments/assets/3fcbcc83-4d16-4aea-be4d-030f4b82d1dc" />
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 🤝 Acknowledgements
+
+- FAISS for efficient similarity search  
+- Open-source LLM and embedding frameworks  
+- Python AI & ML ecosystem  
+
+---
+
+## 📬 Contact
+
+For queries, suggestions, or improvements, feel free to raise an issue or contribute to the repository.
+
+⭐ If you find this project useful, consider giving it a star!
+
+
+
 
