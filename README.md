@@ -74,6 +74,7 @@ git clone https://github.com/Raja-Rajeswari-Javvadi/Smart-Document-Question-Answ
 cd Smart-Document-Question-Answering-System-using-RAG
 ```
 <img width="817" height="705" alt="image" src="https://github.com/user-attachments/assets/3fcbcc83-4d16-4aea-be4d-030f4b82d1dc" />
+
 ---
 
 ## 📜 License
